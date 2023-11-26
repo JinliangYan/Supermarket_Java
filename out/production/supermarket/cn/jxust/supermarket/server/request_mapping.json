@@ -1,0 +1,38 @@
+{
+  "CartController":{
+    "GET_CART_CONTENT": "cn.jxust.supermarket.server.controller.CartController.getCartContent",
+    "GET_CART_ITEMS_MAP": "cn.jxust.supermarket.server.controller.CartController.getCartItemsMap",
+    "GET_TOTAL_PRICE": "cn.jxust.supermarket.server.controller.CartController.getTotalPrice",
+    "ADD_TO_CART": "cn.jxust.supermarket.server.controller.CartController.addToCart",
+    "REMOVE_FROM_CART": "cn.jxust.supermarket.server.controller.CartController.removeFromCart",
+    "GET_QUANTITY": "cn.jxust.supermarket.server.controller.CartController.getQuantity"
+  },
+  "OrderController": {
+    "ADD_ORDER": "cn.jxust.supermarket.server.controller.OrderController.addOrder",
+    "REMOVE_ORDER": "cn.jxust.supermarket.server.controller.OrderController.removeOrder",
+    "GET_ORDERS_BY_DATE": "cn.jxust.supermarket.server.controller.OrderController.getOrdersByDate",
+    "GET_ORDERS_BY_PRODUCT": "cn.jxust.supermarket.server.controller.OrderController.getOrdersByProduct",
+    "GET_TOTAL_SALES_BY_DATE": "cn.jxust.supermarket.server.controller.OrderController.getTotalSalesByDate",
+    "GET_TOTAL_SALES_BY_PRODUCT": "cn.jxust.supermarket.server.controller.OrderController.getTotalSalesByProduct",
+    "GET_TOTAL_SALES": "cn.jxust.supermarket.server.controller.OrderController.getTotalSales",
+    "GET_MOST_POPULAR_PRODUCT": "cn.jxust.supermarket.server.controller.OrderController.getMostPopularProduct",
+    "GET_LEAST_POPULAR_PRODUCT": "cn.jxust.supermarket.server.controller.OrderController.getLeastPopularProduct"
+  },
+  "PaymentController": {
+    "PAY_FOR_PRODUCT": "cn.jxust.supermarket.server.controller.PaymentController.payForProduct",
+    "PAY_ALL_IN_CART": "cn.jxust.supermarket.server.controller.PaymentController.payAllInCart"
+  },
+  "ProductController": {
+    "GET_ALL_PRODUCTS": "cn.jxust.supermarket.server.controller.ProductController.getAllProducts",
+    "GET_PRODUCT_BY_ID": "cn.jxust.supermarket.server.controller.ProductController.getProductById"
+  },
+  "UserController": {
+    "SET_CURRENT_USER": "cn.jxust.supermarket.server.controller.UserController.setCurrentUser",
+    "REGISTER": "cn.jxust.supermarket.server.controller.UserController.register",
+    "LOGIN": "cn.jxust.supermarket.server.controller.UserController.login",
+    "LOGOUT": "cn.jxust.supermarket.server.controller.UserController.logout",
+    "ADD_USER": "cn.jxust.supermarket.server.controller.UserController.addUser",
+    "UPDATE_USER": "cn.jxust.supermarket.server.controller.UserController.updateUser",
+    "DELETE_USER_BY_ID": "cn.jxust.supermarket.server.controller.UserController.deleteUserById"
+  }
+}
